@@ -2,7 +2,6 @@ import re
 from os import environ
 import os
 from Script import script
-import pytz
 import logging
 
 logger = logging.getLogger(__name__)
