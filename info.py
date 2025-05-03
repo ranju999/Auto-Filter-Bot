@@ -94,7 +94,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
 
 # Bot settings
-TIME_ZONE = pytz.timezone(environ.get("TIME_ZONE", 'Asia/Colombo'))
+#TIME_ZONE = pytz.timezone(environ.get("TIME_ZONE", 'Asia/Colombo'))
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 8))
