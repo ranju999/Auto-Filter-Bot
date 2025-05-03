@@ -150,16 +150,16 @@ REACTIONS = [reactions for reactions in environ.get('REACTIONS', '🤝 😇 🤗
 STICKERS = [sticker for sticker in environ.get('STICKERS', 'CAACAgIAAxkBAAEN4ctnu1NdZUe21tiqF1CjLCZW8rJ28QACmQwAAj9UAUrPkwx5a8EilDYE CAACAgIAAxkBAAEN1pBntL9sz1tuP_qo0bCdLj_xQa28ngACxgEAAhZCawpKI9T0ydt5RzYE').split()]  # Multiple sticker can be used separated by space, use @idstickerbot for get sticker id
 
 # for Premium 
- PRE_DAY_AMOUNT = int(environ.get('PRE_DAY_AMOUNT', '10')) # add amount in INR for premium charge pre day 
- UPI_ID = environ.get("UPI_ID", "xxxxx")
- if len(UPI_ID) == 0:
-     logger.error('UPI_ID is missing, exiting now')
-     exit()
- UPI_NAME = environ.get("UPI_NAME", "xxxx") # add your UPI account name
- if len(UPI_NAME) == 0:
-     logger.error('UPI_NAME is missing, exiting now')
-     exit()
- RECEIPT_SEND_USERNAME = environ.get("RECEIPT_SEND_USERNAME", "@Hansaka_Anuhas")
+PRE_DAY_AMOUNT = int(environ.get('PRE_DAY_AMOUNT', '10')) # add amount in INR for premium charge pre day 
+UPI_ID = environ.get("UPI_ID", "xxxxx")
+if len(UPI_ID) == 0:
+    logger.error('UPI_ID is missing, exiting now')
+    exit()
+UPI_NAME = environ.get("UPI_NAME", "xxxx") # add your UPI account name
+if len(UPI_NAME) == 0:
+    logger.error('UPI_NAME is missing, exiting now')
+    exit()
+RECEIPT_SEND_USERNAME = environ.get("RECEIPT_SEND_USERNAME", "@Hansaka_Anuhas")
 
 REQUEST_FORCE_SUB_CHANNELS = environ.get('REQUEST_FORCE_SUB_CHANNELS', '-1002114619001')
 if len(REQUEST_FORCE_SUB_CHANNELS) == 0:
